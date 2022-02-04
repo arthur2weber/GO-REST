@@ -1,20 +1,28 @@
 **Install**
 ----
-  Just clone the repository in your local environment and run the command:
-* **docker-compose up --build** 
+   **Just clone the repository in your local environment and run the command:**
+        
+      docker-compose up --build
+
   The endpoins are will be accessible at the address:
   * http://localhost:8080/
   * Ex: http://localhost:8080/fleets
 
-  
-**Run Tests**
-  The tests are run in a separate container from the production container for this you must use the command:
-* **docker-compose-f docker-compose.test.yml up --build --abort-on-container-exit**
+
+<br>
+
+**Run Tests:**
+----
+  **The tests are run in a separate container from the production container for this you must use the command:**
+
+    docker-compose-f docker-compose.test.yml up --build --abort-on-container-exit
   After running the tests, the container will be finalized
+
+<br>
 
 
 **Endpoints**
-
+----
 
 **Refrash Database**
 ----
